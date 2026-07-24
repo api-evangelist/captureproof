@@ -1,0 +1,31 @@
+# CaptureProof
+
+> CaptureProof is a HIPAA-compliant visual health record and telemedicine platform for secure photo and video communication between patients and clinicians. Its "Smart Medical Camera" apps let providers and patients capture consistent medical-quality imagery, organize and compare it chronologically, and layer AI-driven visual biometrics and clinical insight on top for remote patient monitoring and asynchronous care.
+
+## Company
+- [CaptureProof](https://captureproof.com/): Company website — visual health record for HIPAA-compliant photo/video between patients and doctors.
+- [About CaptureProof](https://captureproof.com/about-us/): Company background and mission.
+- [Artificial Intelligence](https://captureproof.com/ai/): AI-driven visual biometrics and clinical insight.
+- [Pathways](https://captureproof.com/p/): Condition-specific capture pathways.
+- [Publications](https://captureproof.com/publications/): Peer-reviewed research and clinical publications.
+
+## Get Started
+- [Sign up](https://captureproof.com/start/): Start using CaptureProof.
+- [Sign in](https://web.captureproof.com/sign-in): Web application login.
+- [Help Center](https://captureproof.com/help/): Support documentation and contact.
+- [Patients](https://captureproof.com/patients/): Guidance for patients.
+
+## Integration
+- CaptureProof supports EHR/EMR integration and SSO; integration is handled by their technical team.
+- Technical contact: tech@captureproof.com
+- No public developer portal, OpenAPI specification, or self-serve API is published as of 2026-07-18.
+
+## Apps
+- [iOS App](https://itunes.apple.com/app/captureproof/id987584313)
+- [Android App](https://play.google.com/store/apps/details?id=com.captureproof)
+
+## Legal & Security
+- [Terms of Service](https://captureproof.com/terms/): Terms of use.
+- [Privacy Policy](https://captureproof.com/terms/#Privacy): Privacy practices.
+- [HIPAA & Security](https://captureproof.com/terms/#HIPAA): HIPAA compliance and security policy; security contact security@captureproof.com.
+- Compliance posture: HIPAA, GDPR (via SCCs), Swiss FADP; AES-256 encryption.

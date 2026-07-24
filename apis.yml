@@ -1,7 +1,14 @@
 aid: captureproof
 name: CaptureProof
-description: CaptureProof is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'CaptureProof is a HIPAA-compliant visual health record and telemedicine
+  platform for secure photo and video communication between patients and clinicians.
+  Its "Smart Medical Camera" iOS and Android apps let providers and patients capture
+  consistent, medical-quality images and video, automatically organize and compare
+  them chronologically, and layer AI-driven visual biometrics and clinical insight
+  on top for remote patient monitoring, asynchronous ("visual voicemail") care, and
+  post-op and chronic-condition follow-up. CaptureProof supports EHR/EMR integration
+  and SSO handled by its technical team, and bills through remote-monitoring CPT codes.
+  It is HIPAA, GDPR, and Swiss FADP aligned with AES-256 encryption. Backed by Techstars.'
 url: https://raw.githubusercontent.com/api-evangelist/captureproof/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://captureproof.com/assets/img/logos/logo_icon_turquoise.png
 tags:
 - Company
+- Healthcare
+- Telemedicine
+- Medical Imaging
+- Remote Patient Monitoring
+- Digital Health
+- Artificial Intelligence
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,32 @@ maintainers:
 common:
 - type: Website
   url: https://captureproof.com/
+- type: Support
+  url: https://captureproof.com/help/
+- type: SignUp
+  url: https://captureproof.com/start/
+- type: Login
+  url: https://web.captureproof.com/sign-in
+- type: TermsOfService
+  url: https://captureproof.com/terms/
+- type: PrivacyPolicy
+  url: https://captureproof.com/terms/#Privacy
+- type: Compliance
+  url: https://captureproof.com/terms/#HIPAA
+- type: Security
+  url: https://captureproof.com/terms/#HIPAA
+- type: Conformance
+  url: conformance/captureproof-conformance.yml
+- type: VulnerabilityDisclosure
+  url: security/captureproof-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/captureproof-domain-security.yml
+- type: WellKnown
+  url: well-known/captureproof-well-known.yml
+- type: LLMsTxt
+  url: llms/captureproof-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
